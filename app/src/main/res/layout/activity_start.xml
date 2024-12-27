@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:id="@+id/LY1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/holo_orange_dark"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imageMountainClimber"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="Mountain Climber"
+            android:src="@drawable/mountain_climber" />
+
+        <TextView
+            android:id="@+id/textMountainClimber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:text="Mountain Climber"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- Repeat this structure for all exercises -->
+
+    <LinearLayout
+        android:id="@+id/LY2"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:background="@android:color/holo_orange_dark"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            android:id="@+id/imageAbdominalCrunch"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/abdominal_crunch"
+            android:contentDescription="Abdominal Crunch"/>
+
+        <TextView
+            android:id="@+id/textAbdominalCrunch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_gravity="center_vertical"
+            android:text="Abdominal Crunch"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LY3"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:background="@android:color/holo_orange_dark"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            android:id="@+id/imageSquatJump"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/squat_twist"
+            android:contentDescription="Squat Twist"/>
+
+        <TextView
+            android:id="@+id/textSquatJump"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_gravity="center_vertical"
+            android:text="Squat Twist"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/LY4"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:background="@android:color/holo_orange_dark"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            android:id="@+id/imageRussianTwist"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/russian_twist"
+            android:contentDescription="Russian Twist"/>
+
+        <TextView
+            android:id="@+id/textRussianTwist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_gravity="center_vertical"
+            android:text="Russian Twist"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/LY5"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:background="@android:color/holo_orange_dark"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            android:id="@+id/imagePushUpFromKnee"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:contentDescription="Push Up From Knees"
+            android:src="@drawable/pusk" />
+
+        <TextView
+            android:id="@+id/textPushUpFromKnee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_gravity="center_vertical"
+            android:text="Push Up From Knees"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/LY6"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:background="@android:color/holo_orange_dark"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            android:id="@+id/imagePushUpWithOneHand"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/push_up_with_one_hand"
+            android:contentDescription="Push Up With One Hand"/>
+
+        <TextView
+            android:id="@+id/textPushUpWithOneHand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_gravity="center_vertical"
+            android:text="Push Up With One Hand"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+    <!-- Repeat similar blocks for "Squat Jump", "Russian Twist", "Push up from knees", and "Push up with one hand" -->
+
+</LinearLayout>
